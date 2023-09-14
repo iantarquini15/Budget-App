@@ -1,12 +1,13 @@
 {
-  "homepage":"https://iantarquini15.github.io/budget-App",
+  
   "name": "budget-app",
   "private": true,
+  "homepage": "http:/iantarquini15.github.io/budget-App",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy":"gh-pages -d build",
+    "predeploy":"npm run build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
