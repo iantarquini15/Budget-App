@@ -1,0 +1,36 @@
+
+.btnn-mas {
+    background-color: green;
+    border: none;
+    border-radius: 50%;
+    /* Para hacer el botón circular */
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    font-size: 3rem;
+    padding: 0 0 12px 0;
+}
+.btnn-menos {
+    background-color: rgb(212, 12, 12);
+    border: none;
+    border-radius: 50%;
+    /* Para hacer el botón circular */
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    font-size: 3rem;
+    padding: 0 0 12px 0;
+}
+
+
+i{
+    margin-right: 1rem;
+}

@@ -1,0 +1,58 @@
+.dropdown{
+    width: 24%;
+    position: relative;
+}
+/* Estilos CSS para el input con el ícono de moneda dentro */
+.input-with-currency {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.input-with-currency input {
+  padding-left: 30px;
+  /* Espacio a la izquierda para el ícono */
+  flex-grow: 1;
+  /* Aprovecha todo el espacio disponible en el div */
+}
+
+.currency-icon {
+  position: absolute;
+  left: 4px;
+  /* Ajusta la posición del ícono según sea necesario */
+  top: 50%;
+  /* Centra verticalmente el ícono */
+  transform: translateY(-50%);
+  /* Centra verticalmente el ícono */
+}
+
+/* Establece los estilos del ícono según tus preferencias de diseño */
+.currency-icon i {
+  /* Estilos del ícono de moneda */
+  color: #000;
+  /* Color del ícono */
+}
+.budget-remaining-spent {
+  display: flex;
+  align-items: center;
+  /* Centra verticalmente los elementos */
+  padding: 0 5px;
+  /* Agrega un espacio mínimo entre los elementos */
+}
+.budget-container,
+.spent-container,
+.remaining-container {
+  flex: 1;
+  /* Asigna el mismo tamaño y espacio a cada elemento */
+  display: flex;
+  align-items: center;
+  /* Centra verticalmente los elementos dentro de su contenedor */
+  margin: 0 2rem 0 0;
+}
+.currency-dropdown {
+  background-color: lightgreen;
+
+}
+.dropdown-menu .dropdown-item {
+  background-color: lightgreen;
+}
